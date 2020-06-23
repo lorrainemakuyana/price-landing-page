@@ -1,0 +1,160 @@
+@media(max-width:375px){
+    .container {
+        display: flex;
+    }
+}
+
+body {
+    width: 1440px; 
+    background-color: rgb(229, 239, 245);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1 {
+    color: rgb(42, 178, 175);
+    font-size: 28px;
+    margin-top: -12px;
+}
+
+h2 {
+    color: rgb(192, 223, 52);
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    height: 250px;
+}
+
+.first {
+    background-color: rgb(42, 178, 175);
+    flex-basis: 50%;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+.second {
+    background-color: rgb(74, 190, 189);
+    flex-basis: 50%;
+    padding-left: 35px;
+    padding-top: 15px;  
+}
+
+main {
+    width: 575px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#price {
+    float: left; 
+    font-weight: bold; 
+    font-size: 32px; 
+    margin-top: -2px; 
+    margin-bottom: 0px; 
+}
+
+#paragraph {
+    color: rgb(152, 166, 189);
+    font-size: 14px; 
+    line-height: 23px; 
+}
+
+#next {
+    clear: both; 
+    font-size: 14px;
+}
+
+#pm {
+    margin-top: 26px; 
+    margin-left: 60px; 
+    font-weight: 100;
+}
+
+.top {
+    text-align: left; 
+    margin: 40px;
+    padding-top: 10px;
+}
+
+.button {
+    background-color: rgb(192, 223, 52);
+    border: none;
+    color: white;
+    padding: 15px 75px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    margin-top: -5px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+}
+.button:hover {
+    background-color: white;
+    color: rgb(42, 178, 175);
+}
+
+#why{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#subscription {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#pm {
+    color: rgb(167, 65, 65);
+    margin-left: 80px;
+    margin-bottom: 2px;
+    padding-bottom: 1mm;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    line-height: 18px;
+}
+
+li {
+    list-style: none; 
+    font-size: 14px;  
+}
+
+.attribution {
+    width: 100%;
+    position: absolute;
+    bottom: 80px;
+    margin-left: 530px;
+}
+
+a:link {
+    color: rgb(42, 178, 175);
+}
+a:visited {
+    color: rgb(11, 96, 95);
+}
+a:hover {
+    color: rgb(192, 223, 52);
+}
+a:active {
+    color: rgb(74, 190, 189);
+}
+
+#next, #subscription, #why, #pm, #price, ul {
+    color: white;
+}
+
+* {
+    font-family: 'Karla', sans-serif;
+}
+
