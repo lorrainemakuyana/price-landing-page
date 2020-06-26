@@ -98,6 +98,12 @@ main {
 .button:focus{
     outline: none;
 }
+#buttonClick {
+    color: white; 
+    text-align: center;
+    margin-left: -45px;
+    margin-top: -5px;
+}
 
 #why{
     font-weight: bold;
@@ -135,7 +141,6 @@ li {
     text-align: center; 
     color: rgb(62, 82, 163); 
     bottom: -100px;
-    
 }
 
 a:link {
